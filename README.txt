@@ -1,5 +1,5 @@
-Martin Diemer – Autorenwebsite, überarbeitete Cover und Bitcoin-Leseprobe
+Martin Diemer – Autorenwebsite
 
-Zum Testen index.html öffnen. Die Buchcover liegen jetzt auf warmem Greige mit dezenten Schatten. Die Bitcoin-Leseprobe ab Kapitel 4 enthält wieder die typografisch abgesetzten Unterüberschriften 4.1, 4.2, 4.3 und den hervorgehobenen Leitsatz. Alle anderen Leseproben und Inhaltsverzeichnisse bleiben erhalten.
+Alle Dateien und den Ordner bilder direkt in das Hauptverzeichnis des GitHub-Repositories martindiemer.github.io hochladen. Die ZIP-Datei selbst nicht hochladen.
 
-Vor Veröffentlichung Impressum und Datenschutz ergänzen sowie die Textauszüge freigeben.
+Impressum und Datenschutz sind mit den mitgeteilten Kontaktdaten ausgefüllt. Bitte die Angaben, insbesondere E-Mail und die tatsächlichen Dienste, vor Veröffentlichung prüfen. Die Texte ersetzen keine individuelle Rechtsberatung.
