@@ -118,3 +118,53 @@ body.lightbox-open{overflow:hidden}
 
 /* Buchbezugslinks */
 .purchase-links{display:flex;flex-wrap:wrap;gap:.7rem;margin:1rem 0 1.2rem}.purchase-links a{display:inline-block;padding:.72rem 1rem;border:1px solid #82988b;border-radius:7px;color:#254c3e;background:#edf1ec;text-decoration:none;font-weight:600;line-height:1.35}.purchase-links a:hover,.purchase-links a:focus-visible{background:#dce8dd;text-decoration:underline}@media(max-width:560px){.purchase-links{flex-direction:column}.purchase-links a{text-align:center;width:100%;box-sizing:border-box}}
+
+/* Ruhige, kompakte Verlagsgestaltung – November 2026 */
+body{font-size:15.5px;line-height:1.58;background:#faf9f6}
+.nav{padding:15px max(4.5vw,22px)}
+.brand{font-size:19px}.nav nav{gap:20px}
+.hero{max-width:1050px;padding:55px max(4.5vw,22px) 58px}
+.hero h1{font-size:clamp(2.5rem,4.2vw,4.1rem);line-height:1.1;margin-bottom:17px;max-width:800px}
+.hero>p:not(.eyebrow){font-size:16.5px;max-width:620px}
+.hero .button{gap:24px;padding:11px 17px;font-size:12px;margin-top:9px}
+.section{padding:54px max(4.5vw,22px)}
+.section-heading{margin-bottom:25px;max-width:850px}
+.section-heading h2,.about h2{font-size:clamp(1.9rem,2.85vw,2.75rem);letter-spacing:-.025em;margin-bottom:13px}
+.section-heading>p:last-child{font-size:15.5px;line-height:1.65}
+.eyebrow{font-size:10px;letter-spacing:.13em;margin-bottom:12px}
+.featured{grid-template-columns:minmax(150px,230px) minmax(0,640px);gap:clamp(28px,5vw,66px);align-items:start;max-width:1010px}
+.featured h3{font-size:clamp(1.6rem,2.5vw,2.35rem);line-height:1.18;letter-spacing:-.02em;margin-bottom:13px}
+.featured .subtitle{font-size:17px;margin-bottom:13px;color:#59635b}
+.featured p:not(.eyebrow):not(.subtitle):not(.meta){font-size:15.5px;line-height:1.63;margin-bottom:12px}
+.featured .meta{font-size:12px}
+.cover{padding:0;border:0;border-radius:0;background:transparent;max-width:230px}
+.cover .cover-zoom img{max-height:320px;filter:drop-shadow(4px 7px 7px rgba(35,36,30,.17))}
+.cover .zoom-hint{font-size:10px;margin-top:6px}
+.purchase-links{gap:14px;margin:12px 0 9px}
+.purchase-links a{padding:5px 0;border:0;border-radius:0;border-bottom:1px solid #a3afa4;background:transparent;color:#355345;font:600 13px/1.5 Arial,sans-serif}
+.purchase-links a:hover,.purchase-links a:focus-visible{background:transparent;border-bottom-color:#355345}
+.featured .reader-launch{margin-top:15px;max-width:360px;padding:12px 0 0;font-size:12px}
+.muted{background:#f2f1ec}
+.series-intro{padding:20px 0 22px;gap:38px;margin-bottom:25px}
+.series-intro h3{font-size:clamp(1.35rem,2.2vw,1.9rem);margin-bottom:11px}
+.series-intro p{font-size:14px;line-height:1.65;margin-bottom:10px}
+.series-intro-side{padding-top:7px}
+.theme-path{display:none}
+.books{gap:18px}
+.books article{padding:0 0 8px;background:transparent;border:0;border-top:0;box-shadow:none}
+.book-cover-frame{height:230px;padding:0;border:0;border-radius:0;background:transparent;margin-bottom:13px;overflow:hidden}
+.books article .book-cover-frame img{max-height:214px;max-width:100%;filter:drop-shadow(3px 5px 5px rgba(35,36,30,.16))}
+.books .eyebrow{font-size:9px;margin-bottom:8px}
+.books h3{font-size:clamp(1.05rem,1.55vw,1.3rem);line-height:1.25;min-height:2.5em;margin-bottom:6px}
+.books .book-isbn{font-size:11px;margin:0 0 11px}
+.books article>p:not(.eyebrow){font-size:13px;line-height:1.55;min-height:0;margin-bottom:10px}
+.story-teaser{padding:11px 0 2px;margin-top:2px}
+.story-teaser h4{font-size:11px;margin-bottom:7px}
+.story-teaser p{font-size:12px;line-height:1.6;margin-bottom:10px}
+.reader-launch{padding:12px 0 3px;font-size:12px}
+.about{max-width:880px}.about>p:not(.eyebrow){font-size:15.5px;line-height:1.7;margin-bottom:12px}
+footer{padding:22px max(4.5vw,22px)}
+.legal{margin:55px auto}.legal h1{font-size:2.5rem}.legal h2{font-size:1.35rem;margin-top:26px}
+@media(max-width:900px){.featured{grid-template-columns:minmax(145px,210px) minmax(0,1fr);gap:28px}.books{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:44px;padding-bottom:45px}}
+@media(max-width:650px){.section{padding:42px 22px}.featured{grid-template-columns:1fr;gap:20px}.cover{max-width:190px}.cover .cover-zoom img{max-height:275px}.featured h3{font-size:1.8rem}.series-intro{grid-template-columns:1fr;gap:10px}.book-cover-frame{height:220px}.books article .book-cover-frame img{max-height:205px}.purchase-links{flex-direction:row;gap:15px}.purchase-links a{width:auto;text-align:left}.hero h1{font-size:clamp(2.35rem,8vw,3.4rem)}}
+@media(max-width:430px){.books{grid-template-columns:1fr;gap:26px}.book-cover-frame{height:245px}.books article .book-cover-frame img{max-height:230px}.books h3{min-height:0}.books article{padding-bottom:14px;border-bottom:1px solid #dfdfd8}.purchase-links{flex-direction:column;align-items:flex-start;gap:5px}.hero{padding:38px 22px 42px}.nav{padding:14px 22px}.section-heading h2{font-size:2rem}}
