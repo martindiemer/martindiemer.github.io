@@ -168,3 +168,10 @@ footer{padding:22px max(4.5vw,22px)}
 @media(max-width:900px){.featured{grid-template-columns:minmax(145px,210px) minmax(0,1fr);gap:28px}.books{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:44px;padding-bottom:45px}}
 @media(max-width:650px){.section{padding:42px 22px}.featured{grid-template-columns:1fr;gap:20px}.cover{max-width:190px}.cover .cover-zoom img{max-height:275px}.featured h3{font-size:1.8rem}.series-intro{grid-template-columns:1fr;gap:10px}.book-cover-frame{height:220px}.books article .book-cover-frame img{max-height:205px}.purchase-links{flex-direction:row;gap:15px}.purchase-links a{width:auto;text-align:left}.hero h1{font-size:clamp(2.35rem,8vw,3.4rem)}}
 @media(max-width:430px){.books{grid-template-columns:1fr;gap:26px}.book-cover-frame{height:245px}.books article .book-cover-frame img{max-height:230px}.books h3{min-height:0}.books article{padding-bottom:14px;border-bottom:1px solid #dfdfd8}.purchase-links{flex-direction:column;align-items:flex-start;gap:5px}.hero{padding:38px 22px 42px}.nav{padding:14px 22px}.section-heading h2{font-size:2rem}}
+
+/* Zurueckhaltende Typografie auf Impressum und Datenschutz */
+.legal{max-width:740px;margin:46px auto 60px;padding:0 28px;min-height:45vh;font-size:16px;line-height:1.7}
+.legal h1{font-size:clamp(1.85rem,3vw,2.25rem);line-height:1.2;letter-spacing:-.025em;margin:0 0 24px}
+.legal h2{font-size:1.12rem;line-height:1.35;font-weight:600;letter-spacing:0;margin:29px 0 9px}
+.legal p{margin:0 0 15px}
+@media(max-width:600px){.legal{margin:32px auto 45px;padding:0 22px;font-size:15.5px}.legal h1{font-size:1.85rem;margin-bottom:20px}.legal h2{font-size:1.08rem;margin-top:25px}}
